@@ -153,3 +153,30 @@ ul {
     font-weight: 900;
     padding-left: 30vw;
 }
+
+.final-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    max-width: 100vw;
+    height: 18vw;
+    max-height: 18vw;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 50vw;
+    height: 7vw;
+    border-radius: 5px;
+}
+
+.cta-text {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}

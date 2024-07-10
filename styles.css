@@ -166,7 +166,7 @@ ul {
 
 .call-to-action {
     display: flex;
-    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
     background-color: #3882F6;
     width: 50vw;
@@ -178,4 +178,25 @@ ul {
     color: white;
     font-weight: 700;
     font-size: 30px;
+}
+
+.cta-subtext {
+    color: #E5E7EB;
+}
+
+.cta-text, .cta-subtext {
+    padding-left: 5vw;
+}
+
+.button-container {
+    padding-left: 35vw;
+    text-align: center;
+}
+
+.cta-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 1500px;
 }
